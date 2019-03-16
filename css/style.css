@@ -1,0 +1,103 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.header-right a.twitter:hover {
+	color: #47C3FE;
+}
+
+.header-right a.instagram:hover {
+	color: rgb(254, 71, 71);
+}
+.header-right a.snapchat:hover {
+	color: rgb(242, 254, 71);
+}
+.header-left {
+	float: left;
+	font-family: Arial;
+}
+
+.header-left a {
+	color: darkgray;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.header-right {
+	float: right;
+	margin-top: 30px;
+	padding-right: 20px;
+}
+
+.header-right a {
+	color: black;
+	font-size: 30px;
+	padding-right: 20px;
+}
+
+header {
+	width: 100%;
+	height: 90px;
+}
+
+header h1 {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.content {
+	background-color: black;
+	width: 800px;
+	border-radius: 6px;
+	padding: 20px;
+	height: 80%;
+}
+
+.container-dubrovnik {
+	background: url('../images/dubrovnik-1.jpg') no-repeat center;
+	color: white;
+	width: 100%;
+	background-size: cover;	
+	padding: 20px;
+}
+
+.container-zanzibar {
+	background: url('../images/zanzibar-1.jpg') no-repeat center;
+	color: white;
+	width: 100%;
+	background-size: cover;	
+	padding: 20px;
+}
+
+.container-venice {
+	background: url('../images/venice-1.jpg') no-repeat center;
+	color: white;
+	width: 100%;
+	background-size: cover;	
+	padding: 20px;
+}
+
+.container-left {
+	display: inline-block;
+	width: 40%;
+}
+
+.container-right {
+	display: inline-block;
+	width: 49%;
+	overflow-y: auto;
+	height: 400px;
+	vertical-align: top;
+	padding-left: 20px;
+	margin-left: 40px;
+}
+
+img {
+	width: 100%;
+}
+
+iframe {
+	margin-top: 20px;
+	width: 100%;
+}
